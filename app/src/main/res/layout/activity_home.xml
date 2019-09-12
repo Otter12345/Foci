@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:layout_gravity="center"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/hello_id"
+        android:layout_width="303dp"
+        android:layout_height="327dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:text="@string/choice_string"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/chef_option"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="130dp"
+        android:text="@string/chef_label" />
+
+    <Button
+        android:id="@+id/server_option"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/chef_option"
+        android:layout_below="@+id/chef_option"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="-3dp"
+        android:text="@string/server_label" />
+
+    <Button
+        android:id="@+id/customer_option"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/server_option"
+        android:layout_below="@+id/server_option"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="384dp"
+        android:text="@string/foodie_label" />
+
+    <TextView
+        android:id="@+id/logIn_option"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:text="@string/already_user"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/guest_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/hello_id"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:text="continue as guest.."
+        android:textSize="12sp" />
+</RelativeLayout>

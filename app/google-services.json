@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "975078062332",
+    "firebase_url": "https://foci-4aa66.firebaseio.com",
+    "project_id": "foci-4aa66",
+    "storage_bucket": "foci-4aa66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975078062332:android:63a638449a257010067f79",
+        "android_client_info": {
+          "package_name": "com.fociandroid.foci"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975078062332-74m5aokmr1nb0sqg0t3ekqps33bkf285.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIbE_ECinmczW58RKw4-MPTOGwGONixtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975078062332-74m5aokmr1nb0sqg0t3ekqps33bkf285.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

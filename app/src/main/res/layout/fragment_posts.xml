@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customer.ui.customerfun.PostsFragment">
+
+<RelativeLayout
+    android:id="@+id/post_window"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/dummy_post_1"
+        android:layout_width="395dp"
+        android:layout_height="246dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/dummypost1" />
+
+    <ImageView
+        android:id="@+id/dummy_post_2"
+        android:layout_width="395dp"
+        android:layout_height="246dp"
+        android:layout_below="@id/dummy_post_1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/dummypost1" />
+
+    </RelativeLayout>
+</FrameLayout>
